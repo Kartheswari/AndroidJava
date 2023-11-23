@@ -6,7 +6,6 @@
 
 // We can call a non-static method from a static method but need an instance of the class to call that non-static method.
 
-
 //Static methods cannot be overridden.
 
 //Subclass declares a static method with the same signature as a static method in its superclass, it's not considered as overriding but rather a method hiding.
