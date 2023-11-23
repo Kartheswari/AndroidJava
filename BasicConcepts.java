@@ -1,13 +1,14 @@
-//Object, super class, variable, Multiple public class Concepts
+// Object, super class, variable, Multiple public class Concepts
 
-//More than one public class can not write in one java file
+// More than one public class cannot be written in one Java file
 
-//Multiple public classes in a single file would make it ambiguous as to which class name should match the file name
+// Multiple public classes in a single file would make it ambiguous
 
-//if a class does not explicitly extend any other class, it implicitly inherits from the java.lang.Object
+// If a class does not explicitly extend any other class, it implicitly inherits from the java.lang.Object
 
-//Variable can not override. Overriding is only applicable to methods, not to variables. The same instance variable declared in both
-//parent and child class, instance variable is chosen from the reference type.
+// Variable can not override. Overriding is only applicable to methods, not to variables.
+
+// If the same instance variable declared in both parent and child class, instance variable is chosen from the reference type.
 
 public class BasicConcepts 
 {    
