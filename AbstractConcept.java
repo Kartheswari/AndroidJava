@@ -2,19 +2,21 @@
 //Abstract class can not instantiate, extended by its subclass
 //Abstract class main method can declare
 //Abstract class multiple constructor can use
-//abstract class with our extends,doesn't explicitly extend any class in Java, it implicitly inherits from the Object class.
+//If a abstract class with out extends -> It implicitly inherits from the Object class.
 //static keyword can use inside the Abstract class
-//abstract class contains both  abstract and default methods
+//Abstract class contains both the abstract and default methods
 
 public class AbstractConcept{
     public static void main(String[] args) {
         System.out.println("main method");
         TeamMembers obj = new TeamMembers();
+        
         System.out.println("empId-->"+Employee.empId);
-        //     obj.mobileNumber();
-//        obj.team();
-//        String[] arguments = {"arg1", "arg2", "arg3"};
-//        Employee.main(arguments);
+        //obj.mobileNumber();
+        //obj.team();
+        
+        //String[] arguments = {"arg1", "arg2", "arg3"};
+        //Employee.main(arguments);
     }
 }
 abstract class Employee {
