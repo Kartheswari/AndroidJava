@@ -1,8 +1,8 @@
-// Object, super class, variable, Multiple public class Concepts
+//Object, super class, variable, Multiple public class Concepts
 
 //More than one public class can not write in one java file
 
-//multiple public classes in a single file would make it ambiguous as to which class name should match the file name
+//Multiple public classes in a single file would make it ambiguous as to which class name should match the file name
 
 //if a class does not explicitly extend any other class, it implicitly inherits from the java.lang.Object
 
