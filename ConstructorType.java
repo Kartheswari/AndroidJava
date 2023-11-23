@@ -1,5 +1,7 @@
 //Construtor Type Concepts
-//no-arg constructor
+
+//No-arg constructor
+
 //Parameterized constructor
 
 public class ConstructorType
@@ -12,10 +14,12 @@ public class ConstructorType
     }
 }
 
- class Employee {
+ class Employee 
+ {
     int id;
     String name;
-    //no-arg constructor
+   
+     //no-arg constructor
     Employee()
     {
 
@@ -27,6 +31,7 @@ public class ConstructorType
         id = empId;
         name = empName;
     }
+     
     void display ()
     {
         System.out.println("This is default constructor-->"+id+"----"+name);
