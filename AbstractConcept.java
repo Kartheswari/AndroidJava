@@ -1,16 +1,16 @@
 // Abstract class Concepts
 
-//Abstract class can not instantiate, extended by its subclass
+// An abstract class cannot be instantiated; it must be extended by its subclass
 
-//Abstract class main method can declare
+// We can declare a main method
 
-//Abstract class multiple constructor can use
+// Multiple constructors can use
 
-//If a abstract class with out extends -> It implicitly inherits from the Object class.
+// If an abstract class exists without extending another class, it implicitly inherits from the Object class
 
-//Static keyword can use inside the Abstract class
+// Static keyword can be used inside the Abstract class
 
-//Abstract class contains both the abstract and default methods
+// Abstract class contains both the abstract and default methods
 
 public class AbstractConcept
 {
