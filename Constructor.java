@@ -1,6 +1,8 @@
-//Construtor Concepts
+// Construtor Concepts
 
-//Construtor -> first statement this() and super() calls
+// Construtor -> first statement is this() and super() calls 
+
+// super() calls the base class constructor & this() calls the current class constructor
 
 public class Constructor
 {
