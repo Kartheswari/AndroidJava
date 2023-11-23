@@ -1,4 +1,4 @@
-//Abstract class Concepts
+// Abstract class Concepts
 
 //Abstract class can not instantiate, extended by its subclass
 
