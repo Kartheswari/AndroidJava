@@ -1,10 +1,10 @@
-//Static - non static Concepts
+// Static - non static Concepts
 
-//Can not call non static with out instance because this is instance-specific data.
+// We cannot call a non static without an instance because this is instance-specific data.
 
-//We Can call Static method inside the non static.
+// We can call a Static method inside a non-static method.
 
-//We  can call a non-static method from a static method but need an instance of the class to call that non-static method.
+// We can call a non-static method from a static method but need an instance of the class to call that non-static method.
 
 
 //Static methods cannot be overridden.
@@ -48,8 +48,10 @@ class Employee
     }
 }
 
-class TeamMembers extends Employee{
+class TeamMembers extends Employee
+{
     String teamName = "SCP";
+
     TeamMembers()
     {
         // this.anualHolidaysCount();
