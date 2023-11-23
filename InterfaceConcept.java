@@ -1,16 +1,16 @@
-//Interface Concepts
+// Interface Concepts
 
-//Since Java 8, we can have default and static methods in an interface.
+// Since Java 8, we can have default and static methods in an interface.
 
-//Datamembers -> public, static and final by default
+// Datamembers by default -> public, static and final 
 
-//Constructotr Not allowed in interface -
+// Constructor not allowed in interface
 
-//Constructors are used to initialize instances of a class, but interfaces do not have instances, so there's no need for constructors in interfaces.
+// Constructors are used to initialize instances of a class, but interfaces do not have instances, so there's no need for constructors in interfaces.
 
-//Interface supports multiple inheritance but class not supported.
+// Interface supports multiple inheritance but class not supported.
 
-//Multiple inheritance is not supported in class because of ambiguity but in interface implementation is provided by the implementation class.
+// Multiple inheritance is not supported in class because of ambiguity but in interface implementation is provided by the implementation class.
 
 public class InterfaceConcept
 {
