@@ -1,8 +1,8 @@
-//Construtor Type Concepts
+// Construtor Type Concepts
 
-//No-arg constructor
+// No-arg constructor
 
-//Parameterized constructor
+// Parameterized constructor
 
 public class ConstructorType
 {
