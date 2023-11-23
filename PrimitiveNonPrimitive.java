@@ -1,18 +1,18 @@
-//Primitive -  Non primitive
+// Primitive -  Non primitive
 
-//Primitive data types include boolean, char, byte, short, int, long, float and double
+// Primitive data types -> boolean, char, byte, short, int, long, float and double
 
-//Memory size for primitive types is fixed
+// Memory size for the primitive data types is fixed
 
-//Default value 0 for int, false for boolean.... etc
+// Default value 0 for int, false for boolean.... etc
 
-//Non primitive data types Array, String, Class, Object, Long, Boolean
+// Non primitive data types Array, String, Class, Object, Long, Boolean
 
-//Non-primitive types can be used to call methods
+// Non-primitive types can be used to call methods
 
-//Non-primitive types memory usage can vary depending on the size of the object
+// Non-primitive types memory usage can vary depending on the size of the object
 
-//Non-primitive default value is null for all objects
+// Non-primitive default value is null for all objects
 
 public class PrimitiveNonPrimitive
 {
