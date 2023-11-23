@@ -3,7 +3,7 @@
 //Abstract class main method can declare
 //Abstract class multiple constructor can use
 //If a abstract class with out extends -> It implicitly inherits from the Object class.
-//static keyword can use inside the Abstract class
+//Static keyword can use inside the Abstract class
 //Abstract class contains both the abstract and default methods
 
 public class AbstractConcept{
