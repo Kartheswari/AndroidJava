@@ -8,6 +8,7 @@ public class ConstructorType
 {
     public static void main(String[] args) {
     System.out.println("main method");
+    
     // Employee obj = new Employee();
     Employee obj = new Employee(1666,"nila");
     obj.display();
