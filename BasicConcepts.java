@@ -44,7 +44,6 @@ class TeamMembers extends Employee
     String teamName = "SCP";
     TeamMembers()
     {
-
         String superClassName = TeamMembers.class.getSuperclass().getName();
         System.out.println("This is TeamMembers constructor ---->"+superClassName);
     }
