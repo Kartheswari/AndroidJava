@@ -9,15 +9,19 @@
 //Variable can not override. Overriding is only applicable to methods, not to variables. The same instance variable declared in both
 //parent and child class, instance variable is chosen from the reference type.
 
-public class BasicConcepts {
+public class BasicConcepts 
+{    
     public static void main(String[] args) {
         System.out.println("main method");
         TeamMembers obj = new TeamMembers();
+        
         //  Employee obj = new TeamMembers();
         String teamName = obj.teamName;
+        
         System.out.println("teamName--->"+teamName);
     }
 }
+
 /*
 public class Employee{
     public static void main(String[] args) {
@@ -26,7 +30,8 @@ public class Employee{
     }
 }*/
 
-class Employee{
+class Employee
+{
     String teamName = "ManageEngine";
     Employee()
     {
@@ -34,7 +39,8 @@ class Employee{
     }
 }
 
-class TeamMembers extends Employee{
+class TeamMembers extends Employee
+{
     String teamName = "SCP";
     TeamMembers()
     {
