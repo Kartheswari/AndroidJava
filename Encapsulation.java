@@ -1,8 +1,8 @@
-//Encapsulation Concept
+// Encapsulation Concept
 
-//A way to restrict the direct access to some components of an object
+// A way to restrict the direct access to some components of an object
 
-// To access the restrict methods we can use getters and setters
+// To access the restrict methods, we can use getters and setters
 
 public class Encapsulation
 {
