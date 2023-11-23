@@ -1,15 +1,23 @@
 //Inheritance Concept
 
 // parent-child relationship.
+
 //Code Reusability
+
 // Method Overriding
-//duplicating the same code in multiple places.
-//can inherit the parent class method and use inside the child class
+
+//Duplicating the same code in multiple places.
+
+//We can inherit the parent class method and can use inside the child class
+
 //Example -> Object class
-public class Inheritance{
+
+public class Inheritance
+{
     public static void main(String[] args) {
         System.out.println("main method");
-//        Designer  obj = new Designer();
+//      Designer  obj = new Designer();
+        
         Developer  obj = new Developer();
         obj.salary();
     }
@@ -21,7 +29,9 @@ class Employee
 
     public Employee() {
     }
-    String department() {
+    
+    String department() 
+    {
         System.out.println("department:::: ManageEngine");
         return "ManageEngine";
     }
@@ -29,8 +39,10 @@ class Employee
 
 class Developer extends Employee
 {
-    public Developer() {
+    public Developer() 
+    {
     }
+    
     void salary()
     {
         System.out.println("Developer salary----->30k"+"----department---->"+super.department());
@@ -39,8 +51,10 @@ class Developer extends Employee
 
 class Designer extends Employee
 {
-    public Designer() {
+    public Designer() 
+    {
     }
+    
     void salary()
     {
         System.out.println("Developer salary----->50k"+"----department---->"+super.department());
