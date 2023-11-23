@@ -6,8 +6,8 @@
 //Static keyword can use inside the Abstract class
 //Abstract class contains both the abstract and default methods
 
-public class AbstractConcept{
-    
+public class AbstractConcept
+{
     public static void main(String[] args) {
         System.out.println("main method");
         TeamMembers obj = new TeamMembers();
@@ -20,9 +20,9 @@ public class AbstractConcept{
         //Employee.main(arguments);
     }
 }
+
 abstract class Employee 
 {
-
     public static int empId = 1666;
     Employee()
     {
