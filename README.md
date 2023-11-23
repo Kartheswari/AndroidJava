@@ -54,8 +54,13 @@ More than one public class can write in one java file ?
 Primitive non primitive difference
 
 What are all the primitives
+
 Variable can override ?
+
 Interface support static methods?
+
 Static method can override?
+
 Can call Static method inside the non static ?
+
 Can call non static with out instance ?
