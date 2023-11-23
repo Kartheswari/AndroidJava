@@ -1,16 +1,16 @@
-//Inheritance Concept
+// Inheritance Concept
 
-// parent-child relationship.
+// Parent-child relationship.
 
-//Code Reusability
+// Code Reusability
 
 // Method Overriding
 
-//Duplicating the same code in multiple places.
+// Avoid duplicating the same code in multiple places.
 
-//We can inherit the parent class method and can use inside the child class
+// We can inherit the parent class method and use it inside the child class
 
-//Example -> Object class
+// Example -> Object class
 
 public class Inheritance
 {
