@@ -1,4 +1,4 @@
-# AndroidJava
+# CoreJava
 
 This repository contains all the below concepts programmes.
 
