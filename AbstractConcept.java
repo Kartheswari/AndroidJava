@@ -1,6 +1,14 @@
 // Abstract class Concepts
 
-// An abstract class cannot be instantiated; it must be extended by its subclass
+//an abstract class is a blueprint for other classes
+
+//it contains both abstract methods (methods without a body) as well as concrete (normal) methods (methods with a body)
+
+// Consider bank example calculateInterest() is abstract method it differs based on bank(subclass)
+
+// concrete methods -> public void deposit(double amount), public void withdraw(double amount) 
+ 
+// An abstract class cannot be instantiated; it must be extended by its subclass bcz its purpose of creation (blueprint for other classes)
 
 // We can declare a main method
 
