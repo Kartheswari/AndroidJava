@@ -4,6 +4,13 @@
 
 // To access the restrict methods, we can use getters and setters
 
+// long currentTime = System.currentTimeMillis(); // Accessing system time using a method
+// String osName = System.getProperty("os.name"); // Accessing system properties using a method
+
+// The java.lang.System class encapsulates various system-related functionalities like input/output streams, environment variables, system properties, etc. 
+
+// It encapsulates these functionalities and provides methods to access and interact with them.
+
 public class Encapsulation
 {
     public static void main(String[] args) {
